@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="normilize.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container__name">
+        <input
+          type="text"
+          name="user_name"
+          placeholder="your name"
+          size="20%"
+        />
+        <button class="name" onclick="welcomeUser()">
+          Let's get to know each other
+        </button>
+      </div>
+      <div class="container__result">
+        <div class="calc__numbers">
+          <input type="text" name="number1" placeholder="number_1" />
+          <input type="text" name="number2" placeholder="number_2" />
+          <button class="result__nember">Result</button>
+          <p id="result"></p>
+        </div>
+        <div class="container__calc">
+          <button class="calc__sum calc" onclick="sum()">+</button>
+          <button class="calc__sub calc" onclick="sub()">-</button>
+          <button class="calc__mult calc" onclick="mult()">*</button>
+          <button class="calc__div calc" onclick="div()">/</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

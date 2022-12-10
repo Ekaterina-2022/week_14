@@ -1,0 +1,22 @@
+body {
+  width: 100%;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  min-height: 100%;
+  border: 1px solid green;
+}
+.red {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+.blue {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
